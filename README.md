@@ -9,3 +9,5 @@ Folder `clevr_processing` contains the conversion module and the result of that 
 Folders `new_basic_vqa` and `new_vqa` are modifications of their respective original repositories, designed to run with CLEVR dataset. Note that we have purposefully left out the .\datasets folder, since it is not necessary for the running of the model itself - the model only needs the two Annotation files. This will render the two folders impossible to run, however.
 
 To run the two folders, download the CLEVR dataset to ./clevr_processing. Then, run the clevr_data_convert.py file and fix the dataset path in train.py.
+
+The original repository for two folders are located in https://github.com/tbmoon/basic_vqa and https://github.com/SatyamGaba/visual_question_answering.
